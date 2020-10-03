@@ -11,6 +11,11 @@ MaxH.heapq.heappush(-1*18)
 MinH.heapq.heappop()  # return 5
 MaxH.heapq.heappop()  # return 90
 
+# lambda function and reduce
+from functools import reduce 
+L = [1,2,3,4,5]
+mulL= reduce(lambda x,y :x*y, L) #return 120
+
 
 # list of int to string
 s = ['8','80']
