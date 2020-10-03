@@ -1,5 +1,17 @@
 # python3 competitive cheatsheat
 
+# implement min and maxheap
+import heapq 
+L=[10,20,5,90,52]
+negL=[-10,-20,-5,-90,-52]
+MinH = heapq.heapify(L) #min heap
+MaxH = heapq.heapify(negL) #min heap
+MinH.heapq.heappush(18)
+MaxH.heapq.heappush(-1*18)
+MinH.heapq.heappop()  # return 5
+MaxH.heapq.heappop()  # return 90
+
+
 # list of int to string
 s = ['8','80']
 print("".join(s))
