@@ -1,5 +1,14 @@
 # python3 competitive cheatsheat
 
+
+#Binary to Int
+binary1 = "0b100"
+print(int(binary1,2))
+
+#Int to binary
+IntA= 10
+print(bin(intA).replace("0b",""))
+
 #Add Binary Number
 binary1 = "0b100"
 binary2 = "0b110"
