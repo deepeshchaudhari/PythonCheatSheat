@@ -1,5 +1,8 @@
 # python3 competitive cheatsheat
 
+# sort in decreasing order
+ist_name=[1,2,3,4,5]
+ist_name.sort(reverse=True)
 
 #Binary to Int
 binary1 = "0b100"
