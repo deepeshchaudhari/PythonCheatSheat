@@ -1,3 +1,7 @@
+
+# intersection of list or set
+intersec = list(set(jan) & set(feb))
+
 # colorfull text in output
 from termcolor import colored
 print(colored('hello', 'red'), colored('world', 'green'))
