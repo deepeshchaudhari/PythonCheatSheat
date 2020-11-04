@@ -1,5 +1,8 @@
 # python3 competitive cheatsheat
 
+# intersection of list or set
+intersec = list(set(jan) & set(feb))
+
 
 # taking with space
 
