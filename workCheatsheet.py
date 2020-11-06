@@ -1,3 +1,7 @@
+# miltitreading/multiprocessing
+from multiprocessing import Process
+p1 = multiprocessing.Process(target = multiprocessing_block, args = (619309,))
+p1.start()
 
 # intersection of list or set
 intersec = list(set(jan) & set(feb))
