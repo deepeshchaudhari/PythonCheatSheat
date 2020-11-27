@@ -28,3 +28,8 @@ f.close()
 with open(json_file_name+".json", 'w') as file:
     json_string = json.dumps(dct, default=lambda o: o.__dict__, sort_keys=True, indent=2)
     file.write(json_string)
+    
+# clear output from screen
+from IPython.display import clear_output
+print("Hello World!")
+clear_output()
