@@ -33,3 +33,8 @@ with open(json_file_name+".json", 'w') as file:
 from IPython.display import clear_output
 print("Hello World!")
 clear_output()
+
+# get directory file in list
+import os
+entries = os.listdir('my_directory/')
+
