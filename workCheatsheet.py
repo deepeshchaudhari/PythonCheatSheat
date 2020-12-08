@@ -1,3 +1,7 @@
+# get date time day from bitcoin timestamp
+>>  date -d@1582940628
+Sat Feb 29 07:13:48 IST 2020
+
 # miltitreading/multiprocessing
 from multiprocessing import Process
 p1 = multiprocessing.Process(target = multiprocessing_block, args = (619309,))
