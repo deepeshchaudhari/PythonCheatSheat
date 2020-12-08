@@ -1,3 +1,13 @@
+# grahs from networkx
+multigraph = nx.MultiDiGraph()
+digraph = nx.DiGraph()
+undirect = nx.Graph()
+
+multigraph.add_edge(1,2)
+multigraph.add_node(1)
+multigraph.add_node([1,2,3,4,5])
+
+
 # get date time day from bitcoin timestamp
 >>  date -d@1582940628
 Sat Feb 29 07:13:48 IST 2020
