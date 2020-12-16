@@ -1,3 +1,7 @@
+# inspect function code
+import inspect
+print(inspect.getsource(<function_name>))
+
 # progress bar in python
 import time
 from tqdm import tqdm 
