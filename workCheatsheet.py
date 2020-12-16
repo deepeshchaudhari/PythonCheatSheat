@@ -1,3 +1,9 @@
+# progress bar in python
+import time
+from tqdm import tqdm 
+for i in tqdm (range (100), desc="Loading..."): 
+    time.sleep(0.1)
+
 # grahs from networkx
 multigraph = nx.MultiDiGraph()
 digraph = nx.DiGraph()
