@@ -1,3 +1,9 @@
+# convert name to int label
+from sklearn.preprocessing import LabelEncoder
+label_encoder = LabelEncoder()
+df['Species']= label_encoder.fit_transform(df['Species']) 
+df['Species'].unique() 
+
 # inspect function code
 import inspect
 print(inspect.getsource(<function_name>))
