@@ -1,4 +1,10 @@
+# check dataset contain any NaN or infinite 
+import numpy as np
+np.all(np.isfinite(y))
+np.any(np.isnan(x))
+
 # clean dataset from nan and infinite
+import pandas as pd
 def clean_dataset(df):
     assert isinstance(df, pd.DataFrame), "df needs to be a pd.DataFrame"
     df.dropna(inplace=True)
