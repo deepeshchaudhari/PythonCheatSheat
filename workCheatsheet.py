@@ -1,3 +1,13 @@
+# fast operations
+out = "<html>%s %s %s %s</html>" % ('head', 'prologue', 'dsaf', 4)
+
+somelist = [4,5,6,2,3,1,5,87]
+slist = [str(elt) for elt in somelist]
+s = "".join(slist)
+# s 456231587
+
+
+
 # check dataset contain any NaN or infinite 
 import numpy as np
 np.all(np.isfinite(y))
