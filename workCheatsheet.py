@@ -1,3 +1,7 @@
+# copy file via python
+from shutil import copyfile
+copyfile(src, dst)
+
 # fast operations
 out = "<html>%s %s %s %s</html>" % ('head', 'prologue', 'dsaf', 4)
 
