@@ -1,3 +1,9 @@
+# for generating private and public key
+# ssh-keygen -t rsa
+#  for copy public key to server
+# ssh-copy-id 172.23.232.26
+
+
 # copy file via python
 from shutil import copyfile
 copyfile(src, dst)
