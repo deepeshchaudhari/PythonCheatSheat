@@ -1,7 +1,12 @@
-# for generating private and public key
-# ssh-keygen -t rsa
-#  for copy public key to server
-# ssh-copy-id <ip>
+# replace vlaue in dataframe
+nums = {
+    'Car Model Number': [223, np.nan, 237, 195, np.nan, 575, 110, 313, np.nan, 190, 143,np.nan], 
+	'Engine Number': [4511, np.nan, 7570, 1565, 1450, 3786, 2995, 5345, 7777, 2323, 2785, 1120]
+} 
+# Create the dataframe 
+df = pd.DataFrame(nums, columns =['Car Model Number']) 
+# Apply the function 
+df['Car Model Number'] = df['Car Model Number'].replace(np.nan, 1) 
 
 
 # copy file via python
