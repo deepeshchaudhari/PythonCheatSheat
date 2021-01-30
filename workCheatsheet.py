@@ -1,3 +1,9 @@
+# union/intersection of multiple set in one line
+list_of_set = [{1,2,3},{21,3},{2,3,4}]
+firstset = {0,1}
+firstset.union(*list_of_set)
+
+
 # replace vlaue in dataframe
 nums = {
     'Car Model Number': [223, np.nan, 237, 195, np.nan, 575, 110, 313, np.nan, 190, 143,np.nan], 
