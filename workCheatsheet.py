@@ -1,7 +1,6 @@
 # union/intersection of multiple set in one line
 list_of_set = [{1,2,3},{21,3},{2,3,4}]
-firstset = {0,1}
-firstset.union(*list_of_set)
+unioin_set = set().(*list_of_set)
 
 
 # replace vlaue in dataframe
