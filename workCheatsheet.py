@@ -18,6 +18,13 @@ df['Car Model Number'] = df['Car Model Number'].replace(np.nan, 1)
 from shutil import copyfile
 copyfile(src, dst)
 
+import os
+if os.path.exists("demofile.txt"):
+  os.remove("demofile.txt")
+else:
+  print("The file does not exist")
+
+
 # fast operations
 out = "<html>%s %s %s %s</html>" % ('head', 'prologue', 'dsaf', 4)
 
