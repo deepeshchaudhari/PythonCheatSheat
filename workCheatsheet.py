@@ -1,3 +1,11 @@
+# cosine similiarity between vector
+vector1 = [1, 2, 3]
+vector2 = [1, 2, 0]
+
+cosine_similarity = 1 - spatial.distance.cosine(vector1, vector2)
+print(cosine_similarity)
+
+
 # union/intersection of multiple set in one line
 list_of_set = [{1,2,3},{21,3},{2,3,4}]
 unioin_set = set().(*list_of_set)
