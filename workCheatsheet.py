@@ -1,4 +1,5 @@
 # cosine similiarity between vector
+form scipy import spatial
 vector1 = [1, 2, 3]
 vector2 = [1, 2, 0]
 
