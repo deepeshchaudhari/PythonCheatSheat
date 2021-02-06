@@ -1,3 +1,9 @@
+# sort list of tuple according to tuple key
+tup = [('rishav', 10), ('akash', 5), ('ram', 20), ('gaurav', 15)]  
+tup.sort(key = lambda x:x[1])
+
+# output:[('akash', 5), ('rishav', 10), ('gaurav', 15), ('ram', 20)]
+
 # cosine similiarity between vector
 form scipy import spatial
 vector1 = [1, 2, 3]
