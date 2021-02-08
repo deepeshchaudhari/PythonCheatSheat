@@ -1,3 +1,15 @@
+plt.plot(range(10,20),eplist,marker='o')
+for cluster,value in zip(range(10,20),eplist): 
+    plt.text(cluster,value, str(value))
+    
+plt.ylabel('y:# of Cosine Similar Accounts')
+plt.xlabel('x: Epsilon Value 10^-x')
+plt.title("Cosine Similarity Feb(1-28)")
+plt.savefig('CosineSimiliarity[1-28feb]-range[10,20]-cluster 9')
+-----------------
+
+
+
 # sort list of tuple according to tuple key
 tup = [('rishav', 10), ('akash', 5), ('ram', 20), ('gaurav', 15)]  
 tup.sort(key = lambda x:x[1])
