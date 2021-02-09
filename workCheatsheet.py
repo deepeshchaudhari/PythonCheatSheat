@@ -1,5 +1,5 @@
-plt.plot(range(10,20),eplist,marker='o')
-for cluster,value in zip(range(10,20),eplist): 
+plt.plot(range(10,20),range(10,20),marker='o')
+for cluster,value in zip(range(10,20),range(10,20)): 
     plt.text(cluster,value, str(value))
     
 plt.ylabel('y:# of Cosine Similar Accounts')
