@@ -1,3 +1,13 @@
+# access variable from different notebook
+# notebook1
+a= 45
+%store a
+# notebook2
+%store -r 
+print(a)
+
+
+#  plot graph in python
 plt.plot(range(10,20),range(10,20),marker='o')
 for cluster,value in zip(range(10,20),range(10,20)): 
     plt.text(cluster,value, str(value))
